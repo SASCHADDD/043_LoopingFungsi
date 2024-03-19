@@ -14,5 +14,8 @@ int main(){
         cout << "Masukkan nama ke-" << i << ":";
         cin >> nama[i];
     }
+     for (i = 0; i < 5; i++){
+        cout << "Nama ke-" << i << ": " << nama[i] << endl;
+    }
 
 }
