@@ -16,3 +16,8 @@ void input()
     cout << "Masukan Jumlah Air Mineral = ";
     cin >> nAir;
 }
+
+int hitungHarga()
+{
+    return (nTelor * htelor) + (nMie * hMie) + (nAir * hAir);
+}
