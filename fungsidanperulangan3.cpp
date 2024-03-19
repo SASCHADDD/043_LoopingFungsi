@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+int main()
 {
     int bilangan;
 
@@ -13,7 +14,7 @@ using namespace std;
     {
          cout << "Perulangan DO...WHILE" << endl;
         bilangan = rand() % 10;
-        cout "Bilangannya = " << bilangan << endl;
+        cout << "Bilangannya = " << bilangan << endl;
         
     } while (bilangan > 5);
 }
