@@ -10,5 +10,9 @@ int main(){
         cout << i << ". " << "SELAMAT PUASA" << endl;
     }
     cout << "Nilai i terakhir = " << i << endl;
+  for (i = 0; i < 5; i++){
+        cout << "Masukkan nama ke-" << i << ":";
+        cin >> nama[i];
+    }
 
 }
